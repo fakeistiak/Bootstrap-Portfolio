@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        .skill-tag {
+            background-color: #2a2a2a;
+            color: #fff;
+            padding: 4px 12px;
+            border-radius: 4px;
+            margin: 2px;
+            display: inline-block;
+        }
+        .project-card {
+            background-color: #2a2a2a;
+            border: none;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            background-color: #2a2a2a;
+            border: 1px solid #3a3a3a;
+            color: #fff;
+        }
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            background-color: #2a2a2a;
+            color: #fff;
+        }
+        .contact-form ::placeholder {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <img src="https://i.ibb.co.com/sV2RKDM/images-1.png" style="width: 100%; max-width: 50px; height: auto;" class="navbar-brand" href="#">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item">
+                        <a class="btn btn-info btn-sm mt-1" href="https://drive.google.com/file/d/1_0P0cnMOf2fELDLtBlj5cJjlncdJb7F5/view?usp=drive_link" download>
+                            Resume<i class="bi bi-download"></i> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <h1 class="display-4 fw-semibold text-info">HI!</h1>
+                    <h2 class="display-5 fw-semibold text-info">I'M Istiak Ahmed</h2>
+                    <p class="lead">Web Developer || React Developer || Programmer</p>
+                    <p>I am an enthusiastic JavaScript developer with knowing some framework for the frontend and the backend. I know Basic PHP and MySQL but basically a MERN Developer.</p>
+                    <div class="social-links">
+                        <a href="#" class="btn btn-dark me-2 text-info"><i class="bi bi-github"></i></a>
+                        <a href="#" class="btn btn-dark me-2 text-info"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="btn btn-dark text-info"><i class="bi bi-youtube"></i></a>
+                        <a class="btn btn-info btn-sm mt-1" href="https://drive.google.com/file/d/1_0P0cnMOf2fELDLtBlj5cJjlncdJb7F5/view?usp=drive_link" download>
+                            Resume<i class="bi bi-download"></i> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="https://i.ibb.co.com/7pLNVjm/IMG-0837.jpg" alt="Profile Image" style="width: 100%; max-width: 400px; height: auto;" class="img-fluid rounded-circle shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h2 class="text-info mb-4 text-center">Portfolio</h2>
+        <div class="row d-flex flex-column align-items-center">
+            <div class="col-md-7 mb-4">
+                <div class="card project-card d-flex flex-row" style="background-color: #333; color: white;">
+                    <img src="https://i.ibb.co/yfyz25x/still-life-graphic-design-office-1.jpg" 
+                         class="card-img-left img-fluid" 
+                         alt="Project Screenshot" 
+                         style="width: 40%; object-fit: cover;">
+                    <div class="card-body">
+                        <h4>My Cafe</h4>
+                        <p>This is a website for My Cafe. Users can log in via Facebook, GitHub, Google Sign-in, and also create a new account to explore the menu and services. Users can choose their favorite dishes and make reservations online.</p>
+                        <div class="tech-stack">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">NODE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 mb-4">
+                <div class="card project-card d-flex flex-row" style="background-color: #333; color: white;">
+                    <img src="https://i.ibb.co.com/CsqnXjx/marketing-strategy-planning-strategy-concept.jpg" 
+                         class="card-img-left img-fluid" 
+                         alt="Project Screenshot" 
+                         style="width: 40%; object-fit: cover;">
+                    <div class="card-body">
+                        <h4>Insight Office</h4>
+                        <p>This is a website for Insight Office. Users can log in via Facebook, GitHub, Google Sign-in, and also create a new account to manage office tasks and explore productivity tools. Users can collaborate with team members and schedule meetings seamlessly online.</p>
+                        <div class="tech-stack">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">NODE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    
+    
+    
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h3>Expertise:</h3>
+            <div class="mb-4">
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag">Javascript</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Firebase</span>
+                <span class="skill-tag">Express.js</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">Bootstrap</span>
+                <span class="skill-tag">MongoDB</span>
+            </div>
+
+            <h3>Comfortable:</h3>
+            <div class="mb-4">
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Redux</span>
+                <span class="skill-tag">Socket.io</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">Next.js</span>
+            </div>
+            <h3>Familiar:</h3>
+            <div class="mb-4">
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Socket.io</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Django</span>
+                <span class="skill-tag">My SQL</span>
+            </div>
+            <h3>Tools:</h3>
+            <div class="mb-4">
+                <span class="skill-tag">Gtt</span>
+                <span class="skill-tag">Github</span>
+                <span class="skill-tag">Firebase</span>
+                <span class="skill-tag">Notion</span>
+                <span class="skill-tag">Trello</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5">
+        <div class="container text-center">
+            <h2 class="text-info mb-4">My Education</h2>
+            <div class="card project-card mx-auto">
+                <div class="card-body">
+                    <h3 class="text-white">B.Sc in Computer Science & Engineering</h3>
+                    <p class="text-white">Northern University (Dhaka,Bangladesh)</p>
+                    <p class="text-white">2023-2027</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-info mb-4 text-center">Contact with Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="please type your name...">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="please type your Email...">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Type your message..."></textarea>
+                        </div>
+                        <div class="justify-content-center d-flex">
+                            <button type="submit" class="btn btn-info">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p>Copyright © 2024 | Istiak Ahmed</p>
+            <p>Uttara Sector-6 ,Dhaka,Bangladesh</p>
+        </div>
+        <div class="social-links">
+            <a href="#" class="btn btn-dark me-2 text-info"><i class="bi bi-github"></i></a>
+            <a href="#" class="btn btn-dark me-2 text-info"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="btn btn-dark text-info"><i class="bi bi-youtube"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
