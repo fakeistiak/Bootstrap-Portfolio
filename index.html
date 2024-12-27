@@ -39,7 +39,7 @@
     </style>
 </head>
 <body>
-    <!-- Navigation -->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <img src="https://i.ibb.co.com/sV2RKDM/images-1.png" style="width: 100%; max-width: 50px; height: auto;" class="navbar-brand" href="#">
@@ -86,109 +86,152 @@
         </div>
     </section>
 
-<section id="portfolio" class="py-5">
-    <div class="container">
-        <h2 class="text-info mb-4 text-center">Portfolio</h2>
-        <div class="row d-flex flex-column align-items-center">
-            <div class="col-md-7 mb-4">
-                <div class="card project-card d-flex flex-row" style="background-color: #333; color: white;">
-                    <img src="https://i.ibb.co/yfyz25x/still-life-graphic-design-office-1.jpg" 
-                         class="card-img-left img-fluid" 
-                         alt="Project Screenshot" 
-                         style="width: 40%; object-fit: cover;">
-                    <div class="card-body">
-                        <h4>My Cafe</h4>
-                        <p>This is a website for My Cafe. Users can log in via Facebook, GitHub, Google Sign-in, and also create a new account to explore the menu and services. Users can choose their favorite dishes and make reservations online.</p>
-                        <div class="tech-stack">
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Firebase</span>
-                            <span class="skill-tag">HTML</span>
-                            <span class="skill-tag">CSS</span>
-                            <span class="skill-tag">NODE</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-7 mb-4">
-                <div class="card project-card d-flex flex-row" style="background-color: #333; color: white;">
-                    <img src="https://i.ibb.co.com/CsqnXjx/marketing-strategy-planning-strategy-concept.jpg" 
-                         class="card-img-left img-fluid" 
-                         alt="Project Screenshot" 
-                         style="width: 40%; object-fit: cover;">
-                    <div class="card-body">
-                        <h4>Insight Office</h4>
-                        <p>This is a website for Insight Office. Users can log in via Facebook, GitHub, Google Sign-in, and also create a new account to manage office tasks and explore productivity tools. Users can collaborate with team members and schedule meetings seamlessly online.</p>
-                        <div class="tech-stack">
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Firebase</span>
-                            <span class="skill-tag">HTML</span>
-                            <span class="skill-tag">CSS</span>
-                            <span class="skill-tag">NODE</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-    <section id="skills" class="py-5">
+    <section id="portfolio" class="py-5">
         <div class="container">
-            <h3>Expertise:</h3>
-            <div class="mb-4">
-                <span class="skill-tag">React.js</span>
-                <span class="skill-tag">Javascript</span>
-                <span class="skill-tag">Node.js</span>
-                <span class="skill-tag">Firebase</span>
-                <span class="skill-tag">Express.js</span>
-                <span class="skill-tag">HTML</span>
-                <span class="skill-tag">Bootstrap</span>
-                <span class="skill-tag">MongoDB</span>
-            </div>
-
-            <h3>Comfortable:</h3>
-            <div class="mb-4">
-                <span class="skill-tag">SQL</span>
-                <span class="skill-tag">Redux</span>
-                <span class="skill-tag">Socket.io</span>
-                <span class="skill-tag">AWS</span>
-                <span class="skill-tag">Docker</span>
-                <span class="skill-tag">TypeScript</span>
-                <span class="skill-tag">Next.js</span>
-            </div>
-            <h3>Familiar:</h3>
-            <div class="mb-4">
-                <span class="skill-tag">C++</span>
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">Socket.io</span>
-                <span class="skill-tag">AWS</span>
-                <span class="skill-tag">Django</span>
-                <span class="skill-tag">My SQL</span>
-            </div>
-            <h3>Tools:</h3>
-            <div class="mb-4">
-                <span class="skill-tag">Gtt</span>
-                <span class="skill-tag">Github</span>
-                <span class="skill-tag">Firebase</span>
-                <span class="skill-tag">Notion</span>
-                <span class="skill-tag">Trello</span>
-            </div>
-        </div>
-    </section>
-
-    <section id="education" class="py-5">
-        <div class="container text-center">
-            <h2 class="text-info mb-4">My Education</h2>
-            <div class="card project-card mx-auto">
-                <div class="card-body">
-                    <h3 class="text-white">B.Sc in Computer Science & Engineering</h3>
-                    <p class="text-white">Northern University (Dhaka,Bangladesh)</p>
-                    <p class="text-white">2023-2027</p>
+            <h2 class="text-info mb-4 text-center">Portfolio</h2>
+            <div class="row d-flex flex-column align-items-center">
+                <div class="col-md-7 mb-4">
+                    <div class="card project-card d-flex flex-row" style="background-color: #333; color: white;">
+                        <div id="carouselMyCafe" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://i.ibb.co/yfyz25x/still-life-graphic-design-office-1.jpg" 
+                                         class="card-img-left img-fluid" 
+                                         alt="Project Screenshot 1" 
+                                         style="width: 100%; object-fit: cover;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.ibb.co.com/3zWskCb/resume-apply-work-form-concept.jpg" 
+                                         class="card-img-left img-fluid" 
+                                         alt="Project Screenshot 2" 
+                                         style="width: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMyCafe" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselMyCafe" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4>My Cafe</h4>
+                            <p>This is a website for My Cafe. Users can log in via Facebook, GitHub, Google Sign-in, and also create a new account to explore the menu and services. Users can choose their favorite dishes and make reservations online.</p>
+                            <div class="tech-stack">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Firebase</span>
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">NODE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 mb-4">
+                    <div class="card project-card d-flex flex-row" style="background-color: #333; color: white;">
+                        <div id="carouselInsightOffice" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://i.ibb.co.com/LtF26Rf/marketing-strategy-planning-strategy-concept.jpg" 
+                                         class="card-img-left img-fluid" 
+                                         alt="Project Screenshot 1" 
+                                         style="width: 100%; object-fit: cover;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.ibb.co.com/h7fV579/still-life-graphic-design-day.jpg" 
+                                         class="card-img-left img-fluid" 
+                                         alt="Project Screenshot 2" 
+                                         style="width: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselInsightOffice" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselInsightOffice" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h4>Insight Office</h4>
+                            <p>This is a website for Insight Office. Users can log in via Facebook, GitHub, Google Sign-in, and also create a new account to manage office tasks and explore productivity tools. Users can collaborate with team members and schedule meetings seamlessly online.</p>
+                            <div class="tech-stack">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Firebase</span>
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">NODE</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    
+
+
+    <section class="d-flex justify-content-center">
+        <section id="skills" class="py-5">
+            <div class="container">
+                <h3>Expertise:</h3>
+                <div class="mb-4">
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Javascript</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">Express.js</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">MongoDB</span>
+                </div>
+    
+                <h3>Comfortable:</h3>
+                <div class="mb-4">
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Redux</span>
+                    <span class="skill-tag">Socket.io</span>
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Next.js</span>
+                </div>
+                <h3>Familiar:</h3>
+                <div class="mb-4">
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Socket.io</span>
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">My SQL</span>
+                </div>
+                <h3>Tools:</h3>
+                <div class="mb-4">
+                    <span class="skill-tag">Gtt</span>
+                    <span class="skill-tag">Github</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">Notion</span>
+                    <span class="skill-tag">Trello</span>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="py-5">
+            <div class="container text-center">
+                <h2 class="text-info mb-4">My Education</h2>
+                <div class="card project-card mx-auto">
+                    <div class="card-body">
+                        <h3 class="text-white">B.Sc in Computer Science & Engineering</h3>
+                        <p class="text-white">Northern University (Dhaka,Bangladesh)</p>
+                        <p class="text-white">2023-2027</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
     
     <section id="contact" class="py-5 bg-dark">
         <div class="container">
